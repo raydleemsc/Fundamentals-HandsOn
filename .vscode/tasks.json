@@ -6,12 +6,12 @@
 			"label": "docker-build",
 			"platform": "node",
 			"dockerBuild": {
-				"dockerfile": "${workspaceFolder}/L06-02 Using VS Code/Dockerfile",
-				"context": "${workspaceFolder}/L06-02 Using VS Code",
+				"dockerfile": "${workspaceFolder}/L10-03 Push Express site to Docker Hub/Dockerfile",
+				"context": "${workspaceFolder}/L10-03 Push Express site to Docker Hub",
 				"pull": true
 			},
 			"node": {
-				"package": "${workspaceFolder}/L06-02 Using VS Code/package.json"
+				"package": "${workspaceFolder}/L10-03 Push Express site to Docker Hub/package.json"
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 			],
 			"platform": "node",
 			"node": {
-				"package": "${workspaceFolder}/L06-02 Using VS Code/package.json"
+				"package": "${workspaceFolder}/L10-03 Push Express site to Docker Hub/package.json"
 			}
 		},
 		{
@@ -38,7 +38,7 @@
 				}
 			},
 			"node": {
-				"package": "${workspaceFolder}/L06-02 Using VS Code/package.json",
+				"package": "${workspaceFolder}/L10-03 Push Express site to Docker Hub/package.json",
 				"enableDebugging": true
 			}
 		}

@@ -7,8 +7,8 @@
             "preLaunchTask": "docker-run: debug",
             "platform": "node",
             "node": {
-                "package": "${workspaceFolder}/L06-02 Using VS Code/package.json",
-                "localRoot": "${workspaceFolder}/L06-02 Using VS Code"
+                "package": "${workspaceFolder}/L10-03 Push Express site to Docker Hub/package.json",
+                "localRoot": "${workspaceFolder}/L10-03 Push Express site to Docker Hub"
             }
         }
     ]
